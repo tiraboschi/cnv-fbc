@@ -36,7 +36,7 @@ spec:
   - name: path-context
     value: v4.20
   - name: skip-fips-checks
-    value: "true"
+    value: "false"
   pipelineRef:
     name: fbc-pipeline
   taskRunTemplate:
