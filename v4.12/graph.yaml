@@ -12,45 +12,64 @@ entries:
         replaces: kubevirt-hyperconverged-operator.v4.12.0
       - name: kubevirt-hyperconverged-operator.v4.12.2
         replaces: kubevirt-hyperconverged-operator.v4.12.1
+        skipRange: '>=4.12.0 <4.12.2'
       - name: kubevirt-hyperconverged-operator.v4.12.3
         replaces: kubevirt-hyperconverged-operator.v4.12.2
-        skipRange: '>=4.11.3 <4.12.0'
+        skipRange: '>=4.11.3 <4.12.3'
       - name: kubevirt-hyperconverged-operator.v4.12.4
         replaces: kubevirt-hyperconverged-operator.v4.12.3
+        skipRange: '>=4.12.0 <4.12.4'
       - name: kubevirt-hyperconverged-operator.v4.12.5
         replaces: kubevirt-hyperconverged-operator.v4.12.4
+        skipRange: '>=4.12.0 <4.12.5'
       - name: kubevirt-hyperconverged-operator.v4.12.6
         replaces: kubevirt-hyperconverged-operator.v4.12.5
+        skipRange: '>=4.12.0 <4.12.6'
       - name: kubevirt-hyperconverged-operator.v4.12.7
         replaces: kubevirt-hyperconverged-operator.v4.12.6
+        skipRange: '>=4.12.0 <4.12.7'
       - name: kubevirt-hyperconverged-operator.v4.12.8
         replaces: kubevirt-hyperconverged-operator.v4.12.7
+        skipRange: '>=4.12.0 <4.12.8'
       - name: kubevirt-hyperconverged-operator.v4.12.9
         replaces: kubevirt-hyperconverged-operator.v4.12.8
+        skipRange: '>=4.12.0 <4.12.9'
       - name: kubevirt-hyperconverged-operator.v4.12.10
         replaces: kubevirt-hyperconverged-operator.v4.12.9
+        skipRange: '>=4.12.0 <4.12.10'
       - name: kubevirt-hyperconverged-operator.v4.12.11
         replaces: kubevirt-hyperconverged-operator.v4.12.10
+        skipRange: '>=4.12.0 <4.12.11'
       - name: kubevirt-hyperconverged-operator.v4.12.12
         replaces: kubevirt-hyperconverged-operator.v4.12.11
+        skipRange: '>=4.12.0 <4.12.12'
       - name: kubevirt-hyperconverged-operator.v4.12.13
         replaces: kubevirt-hyperconverged-operator.v4.12.12
+        skipRange: '>=4.12.0 <4.12.13'
       - name: kubevirt-hyperconverged-operator.v4.12.14
         replaces: kubevirt-hyperconverged-operator.v4.12.13
+        skipRange: '>=4.12.0 <4.12.14'
       - name: kubevirt-hyperconverged-operator.v4.12.15
         replaces: kubevirt-hyperconverged-operator.v4.12.14
+        skipRange: '>=4.12.0 <4.12.15'
       - name: kubevirt-hyperconverged-operator.v4.12.16
         replaces: kubevirt-hyperconverged-operator.v4.12.15
+        skipRange: '>=4.12.0 <4.12.16'
       - name: kubevirt-hyperconverged-operator.v4.12.17
         replaces: kubevirt-hyperconverged-operator.v4.12.16
+        skipRange: '>=4.12.0 <4.12.17'
       - name: kubevirt-hyperconverged-operator.v4.12.18
         replaces: kubevirt-hyperconverged-operator.v4.12.17
+        skipRange: '>=4.12.0 <4.12.18'
       - name: kubevirt-hyperconverged-operator.v4.12.19
         replaces: kubevirt-hyperconverged-operator.v4.12.18
+        skipRange: '>=4.12.0 <4.12.19'
       - name: kubevirt-hyperconverged-operator.v4.12.20
         replaces: kubevirt-hyperconverged-operator.v4.12.19
+        skipRange: '>=4.12.0 <4.12.20'
       - name: kubevirt-hyperconverged-operator.v4.12.21
         replaces: kubevirt-hyperconverged-operator.v4.12.20
+        skipRange: '>=4.12.0 <4.12.21'
     name: stable
     package: kubevirt-hyperconverged
     schema: olm.channel
