@@ -137,5 +137,5 @@ entries:
     image: registry.redhat.io/container-native-virtualization/hco-bundle-registry@sha256:a8cc033664e7c193f3ed7369924d467ef6caa27e734f683fd5eda4aaeb3f5d71
     # hco-bundle-registry v4.12.9-49
   - schema: olm.bundle
-    image: registry.redhat.io/container-native-virtualization/hco-bundle-registry@sha256:a766a93802d0c5c4fcb4e48f24c0805ecf6af99549e18c5c2919ff010ea4751c
-    # hco-bundle-registry v4.12.21-7
+    image: registry.redhat.io/container-native-virtualization/hco-bundle-registry@sha256:7009e51f11f500c7ef2ce667441cd5613f22f3755ffa88473700e9530092cedd
+    # hco-bundle-registry v4.12.21-8
