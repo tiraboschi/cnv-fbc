@@ -1,10 +1,6 @@
 schema: olm.template.basic
 name: kubevirt-hyperconverged
 entries:
-  -
-schema: olm.template.basic
-name: kubevirt-hyperconverged
-entries:
   - schema: olm.package
     name: kubevirt-hyperconverged
     defaultChannel: stable
@@ -100,6 +96,9 @@ entries:
       - name: kubevirt-hyperconverged-operator.v4.19.6
         replaces: kubevirt-hyperconverged-operator.v4.19.3
         skipRange: '>=4.18.13 <4.19.6'
+      - name: kubevirt-hyperconverged-operator.v4.20.0
+        replaces: kubevirt-hyperconverged-operator.v4.19.6
+        skipRange: '>=4.19.7 <4.20.0'
     name: stable
     package: kubevirt-hyperconverged
     schema: olm.channel
@@ -200,15 +199,18 @@ entries:
     image: registry.redhat.io/container-native-virtualization/hco-bundle-registry-rhel9@sha256:645420203af4e06b99a32e810fb6b91e61e98f73a5dfcd0d9a741e98a449da5e
     # hco-bundle-registry v4.19.6.rhel9-6
   - schema: olm.bundle
+    image: registry.redhat.io/container-native-virtualization/hco-bundle-registry-rhel9@sha256:c885e3c072f57da640fe4dba03a3771351124d14bc7bd1af6dc882abf1402e93
+    # hco-bundle-registry v4.20.0.rhel9-234
+  - schema: olm.bundle
     image: registry.redhat.io/container-native-virtualization/hco-bundle-registry-rhel9@sha256:a32214d166ee692a4cae917fe97e0535a4a696155e1c878ae5335c77dadef0df
     # hco-bundle-registry v4.99.0.rhel9-993
   - schema: olm.bundle
-    image: registry.redhat.io/container-native-virtualization/hco-bundle-registry-rhel9@sha256:4379748935d5d3b11c7b3d3ba1578b06f483d28336a01484b238276f81f6bbc0
-    # hco-bundle-registry v4.21.0.rhel9-1
+    image: registry.redhat.io/container-native-virtualization/hco-bundle-registry-rhel9@sha256:04ae8f80112c53cd5f764f883125e1efbfa40af35cb7d45487c1e81b2be3403c
+    # hco-bundle-registry v4.21.0.rhel9-4
   - entries:
       - name: kubevirt-hyperconverged-operator.v4.21.0
-        replaces: kubevirt-hyperconverged-operator.v4.19.6
-        skipRange: '>=4.19.7 <4.21.0'
+        replaces: kubevirt-hyperconverged-operator.v4.20.0
+        skipRange: '>=4.20.1 <4.21.0'
     name: nightly
     package: kubevirt-hyperconverged
     schema: olm.channel
