@@ -1,3 +1,3 @@
-channel: nightly
+channel: candidate
 hco-bundle-version: v4.21.0.rhel9-8
 image: registry.redhat.io/container-native-virtualization/hco-bundle-registry-rhel9@sha256:14b9c0b87a4eb91fd8b877c516872498cb41f191fc92062bbdb5fc7b333a80ae
