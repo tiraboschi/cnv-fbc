@@ -10,12 +10,24 @@
 }
 {
     "schema": "olm.channel",
+    "name": "candidate",
+    "package": "kubevirt-hyperconverged",
+    "entries": [
+        {
+            "name": "kubevirt-hyperconverged-operator.v4.20.1",
+            "replaces": "kubevirt-hyperconverged-operator.v4.20.0",
+            "skipRange": ">=4.20.0 <4.20.1"
+        }
+    ]
+}
+{
+    "schema": "olm.channel",
     "name": "dev-preview",
     "package": "kubevirt-hyperconverged",
     "entries": [
         {
-            "name": "kubevirt-hyperconverged-operator.v4.99.0-0.1762820326",
-            "skipRange": "<4.99.0-0.1762820326"
+            "name": "kubevirt-hyperconverged-operator.v4.99.0-0.1723448771",
+            "skipRange": "<4.99.0"
         }
     ]
 }
