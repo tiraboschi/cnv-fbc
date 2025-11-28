@@ -22,7 +22,14 @@
             "name": "kubevirt-hyperconverged-operator.v4.20.2",
             "replaces": "kubevirt-hyperconverged-operator.v4.20.1",
             "skipRange": ">=4.20.0 <4.20.2"
-        },
+        }
+    ]
+}
+{
+    "schema": "olm.channel",
+    "name": "nightly",
+    "package": "kubevirt-hyperconverged",
+    "entries": [
         {
             "name": "kubevirt-hyperconverged-operator.v4.20.3",
             "replaces": "kubevirt-hyperconverged-operator.v4.20.2",
@@ -19149,7 +19156,7 @@
     "schema": "olm.bundle",
     "name": "kubevirt-hyperconverged-operator.v4.20.3",
     "package": "kubevirt-hyperconverged",
-    "image": "registry.redhat.io/container-native-virtualization/hco-bundle-registry-rhel9@sha256:6735652be28e21760c33474506206d7f0a35f8b8ea92dd048b8b45e9e6006243",
+    "image": "registry.redhat.io/container-native-virtualization/hco-bundle-registry-rhel9@sha256:351e23c6743c01a3e9c8baef60fbfb1fc97f2d0094adecccead49e69dc4a90e4",
     "properties": [
         {
             "type": "olm.gvk",
@@ -19256,7 +19263,7 @@
                     "certified": "true",
                     "console.openshift.io/disable-operand-delete": "true",
                     "containerImage": "registry.redhat.io/container-native-virtualization/hyperconverged-cluster-operator-rhel9@sha256:025bd8407b0d72ddb4646f31b7ccc3d6512a4e74fb98cc3a2a1c158dd30e05f7",
-                    "createdAt": "2025-11-28 09:19:34",
+                    "createdAt": "2025-11-28 21:17:31",
                     "description": "Creates and maintains an OpenShift Virtualization Deployment",
                     "features.operators.openshift.io/cnf": "false",
                     "features.operators.openshift.io/cni": "true",
@@ -19462,7 +19469,7 @@
     "relatedImages": [
         {
             "name": "",
-            "image": "registry.redhat.io/container-native-virtualization/hco-bundle-registry-rhel9@sha256:6735652be28e21760c33474506206d7f0a35f8b8ea92dd048b8b45e9e6006243"
+            "image": "registry.redhat.io/container-native-virtualization/hco-bundle-registry-rhel9@sha256:351e23c6743c01a3e9c8baef60fbfb1fc97f2d0094adecccead49e69dc4a90e4"
         },
         {
             "name": "registry.redhat.io/container-native-virtualization/aaq-controller-rhel9:v4.20.3-1",
@@ -19533,8 +19540,8 @@
             "image": "registry.redhat.io/container-native-virtualization/kubevirt-common-instancetypes-rhel9@sha256:044bf0c8922d9b02643f3c3b1be63f32f84a1c28913c89a6d2458f0bc464b006"
         },
         {
-            "name": "registry.redhat.io/container-native-virtualization/kubevirt-console-plugin-rhel9:v4.20.3-18",
-            "image": "registry.redhat.io/container-native-virtualization/kubevirt-console-plugin-rhel9@sha256:2bf3d8de021b26382ac16e668c2989e207f53c99e995a892609e44861fd21411"
+            "name": "registry.redhat.io/container-native-virtualization/kubevirt-console-plugin-rhel9:v4.20.3-19",
+            "image": "registry.redhat.io/container-native-virtualization/kubevirt-console-plugin-rhel9@sha256:49e8fe92cefa5b8d23aa7ec3136ecf970653b46f3668e9d8fbcff5219c20faaf"
         },
         {
             "name": "registry.redhat.io/container-native-virtualization/kubevirt-ipam-controller-rhel9:v4.20.3-1",
@@ -19589,8 +19596,8 @@
             "image": "registry.redhat.io/container-native-virtualization/pr-helper-rhel9@sha256:1acdbe5509f2397f569a4248268d3291c673a8b616f31234d860bbefe91c200e"
         },
         {
-            "name": "registry.redhat.io/container-native-virtualization/sidecar-shim-rhel9:v4.20.3-16",
-            "image": "registry.redhat.io/container-native-virtualization/sidecar-shim-rhel9@sha256:b1b15c57a288b88a63f36f62ed0bf7321b0c32176a9cc44935c889b93dd0a4b1"
+            "name": "registry.redhat.io/container-native-virtualization/sidecar-shim-rhel9:v4.20.3-17",
+            "image": "registry.redhat.io/container-native-virtualization/sidecar-shim-rhel9@sha256:041fc9569ac052d4f6976d235994b660a98d7a8365eaf88d12fd411184eeac9d"
         },
         {
             "name": "registry.redhat.io/container-native-virtualization/virt-api-rhel9:v4.20.3-3",
