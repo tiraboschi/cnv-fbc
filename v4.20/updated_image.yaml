@@ -1,3 +1,3 @@
-channel: dev-preview
-hco-bundle-version: v4.99.0.rhel9-2502
-image: quay.io/openshift-virtualization/konflux-builds/v4-99/hco-bundle-registry@sha256:b2367942b4034a3434564c0dbf1021034b752888a1c3018fa1d1b040d2a9b74f
+channel: nightly
+hco-bundle-version: v4.20.3.rhel9-17
+image: registry.redhat.io/container-native-virtualization/hco-bundle-registry-rhel9@sha256:587e3f53c5c05e78882bdcf584c6420fee3dddb6f44ca04a477cd2e49ddc2094
