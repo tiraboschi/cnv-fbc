@@ -106,9 +106,9 @@ if [[ "$2" == "brew" ]]; then
     sed -i 's|brew.registry.redhat.io/container-native-virtualization/hco-bundle-registry|registry.redhat.io/container-native-virtualization/hco-bundle-registry|g' "${frag}"/catalog/kubevirt-hyperconverged/catalog.json
 elif [[ "$2" == "quay" ]]; then
     if [[ "$3" == "sprintly" ]]; then
-        QUAY_REGISTRY="quay.io/openshift-virtualization/konflux-builds/v4-99/"
+        QUAY_REGISTRY="quay.io/openshift-virtualization/konflux-builds/v4-99"
     else
-        QUAY_REGISTRY="quay.io/openshift-virtualization/konflux-builds/${frag//./-}/"
+        QUAY_REGISTRY="quay.io/openshift-virtualization/konflux-builds/${frag//./-}"
     fi
     sed -i "s|image: $QUAY_REGISTRY/hco-bundle-registry|image: registry.redhat.io/container-native-virtualization/hco-bundle-registry|g" "${frag}"/graph.yaml
     sed -i "s|$QUAY_REGISTRY/hco-bundle-registry|registry.redhat.io/container-native-virtualization/hco-bundle-registry|g" "${frag}"/catalog/kubevirt-hyperconverged/catalog.json
