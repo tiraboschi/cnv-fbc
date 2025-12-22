@@ -217,7 +217,7 @@ case $cmd in
       url=$(${SKOPEO_CMD} inspect --retry-times=5 --no-tags --format "{{.Labels.url}}" ${AUTH_FILE} docker://"$image")
       if [[ -z "$url" || "$url" == "<no value>" ]]; then
         # shellcheck disable=SC2086
-        url=$(${SKOPEO_CMD} inspect --retry-times=5 --no-tags --format "{{.Labels.version}}" ${AUTH_FILE} docker://"$image")
+        url=$(${SKOPEO_CMD} inspect --retry-times=5 --no-tags --format "{{.Labels.version}}-{{.Labels.release}}" ${AUTH_FILE} docker://"$image")
       fi
       if [[ "$url" == *"/images/"* ]]; then
         tag=${url/*\/images\/}
@@ -240,7 +240,7 @@ case $cmd in
         url=$(${SKOPEO_CMD} inspect --retry-times=5 --no-tags --format "{{.Labels.url}}" ${AUTH_FILE} docker://"$image")
         if [[ -z "$url" || "$url" == "<no value>" ]]; then
           # shellcheck disable=SC2086
-          url=$(${SKOPEO_CMD} inspect --retry-times=5 --no-tags --format "{{.Labels.version}}" ${AUTH_FILE} docker://"$image")
+          url=$(${SKOPEO_CMD} inspect --retry-times=5 --no-tags --format "{{.Labels.version}}-{{.Labels.release}}" ${AUTH_FILE} docker://"$image")
         fi
         if [[ "$url" == *"/images/"* ]]; then
           tag=${url/*\/images\/}
