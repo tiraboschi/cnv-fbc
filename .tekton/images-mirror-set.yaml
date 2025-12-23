@@ -109,7 +109,7 @@ spec:
     source: registry.redhat.io/container-native-virtualization/kubevirt-api-lifecycle-automation-rhel9
   - mirrors:
     - brew.registry.redhat.io/container-native-virtualization/kubevirt-apiserver-proxy-rhel9
-    - quay.io/openshift-virtualization/konflux-builds/v4-99/kubevirt-apiserver-proxy
+    - quay.io/openshift-virtualization/konflux-builds/v4-99/kubevirt-apiserver-proxy-rhel9
     source: registry.redhat.io/container-native-virtualization/kubevirt-apiserver-proxy-rhel9
   - mirrors:
     - brew.registry.redhat.io/container-native-virtualization/kubevirt-common-instancetypes-rhel9
