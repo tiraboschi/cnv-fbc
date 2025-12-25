@@ -1,3 +1,3 @@
-channel: dev-preview
-hco-bundle-version: v4.99.0.rhel9-2494
-image: registry.redhat.io/container-native-virtualization/hco-bundle-registry-rhel9@sha256:f73007bfa1bea3075bef1b7c65b912662cf462262fef61abbde7ced5e0ab96c9
+channel: candidate
+hco-bundle-version: v4.20.4.rhel9-11
+image: registry.redhat.io/container-native-virtualization/hco-bundle-registry-rhel9@sha256:045cb0498b11ce72de22f94bea9ac7b98340ecdeca23beab7c4040edd7bcd1e5
