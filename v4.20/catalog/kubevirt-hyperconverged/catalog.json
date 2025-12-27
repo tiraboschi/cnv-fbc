@@ -27,14 +27,7 @@
             "name": "kubevirt-hyperconverged-operator.v4.20.3",
             "replaces": "kubevirt-hyperconverged-operator.v4.20.2",
             "skipRange": ">=4.20.0 <4.20.3"
-        }
-    ]
-}
-{
-    "schema": "olm.channel",
-    "name": "dev-preview",
-    "package": "kubevirt-hyperconverged",
-    "entries": [
+        },
         {
             "name": "kubevirt-hyperconverged-operator.v4.99.0-0.1766791837",
             "skipRange": "<4.99.0-0.1766791837"
