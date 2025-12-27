@@ -18574,7 +18574,7 @@
     "schema": "olm.bundle",
     "name": "kubevirt-hyperconverged-operator.v4.21.0",
     "package": "kubevirt-hyperconverged",
-    "image": "registry.redhat.io/container-native-virtualization/hco-bundle-registry-rhel9@sha256:681db0dc7c0cb58ca0e55518eae72fab5175fe401c0078530d28a158733ee028",
+    "image": "registry.redhat.io/container-native-virtualization/hco-bundle-registry-rhel9@sha256:a152f304ea43bb9bb59364f2905bc62ca23731b132d61e5ed52d3f2712161ac5",
     "properties": [
         {
             "type": "olm.gvk",
@@ -18689,7 +18689,7 @@
                     "certified": "true",
                     "console.openshift.io/disable-operand-delete": "true",
                     "containerImage": "registry.redhat.io/container-native-virtualization/hyperconverged-cluster-operator-rhel9@sha256:d9db8dd805d5cdf6bf26bc52deac397b7585a92f8d9bf2ec093f801432699c06",
-                    "createdAt": "2025-12-26 14:34:54",
+                    "createdAt": "2025-12-27 01:31:59",
                     "description": "Creates and maintains an OpenShift Virtualization Deployment",
                     "features.operators.openshift.io/cnf": "false",
                     "features.operators.openshift.io/cni": "true",
@@ -18902,7 +18902,7 @@
     "relatedImages": [
         {
             "name": "",
-            "image": "registry.redhat.io/container-native-virtualization/hco-bundle-registry-rhel9@sha256:681db0dc7c0cb58ca0e55518eae72fab5175fe401c0078530d28a158733ee028"
+            "image": "registry.redhat.io/container-native-virtualization/hco-bundle-registry-rhel9@sha256:a152f304ea43bb9bb59364f2905bc62ca23731b132d61e5ed52d3f2712161ac5"
         },
         {
             "name": "registry.redhat.io/container-native-virtualization/aaq-controller-rhel9:v4.21.0-11",
@@ -18973,8 +18973,8 @@
             "image": "registry.redhat.io/container-native-virtualization/kubevirt-common-instancetypes-rhel9@sha256:eb80df742cbca81f7f0813f3b841331ee3aa67982567f7735c1aacc34b5811ac"
         },
         {
-            "name": "registry.redhat.io/container-native-virtualization/kubevirt-console-plugin-rhel9:v4.21.0-128",
-            "image": "registry.redhat.io/container-native-virtualization/kubevirt-console-plugin-rhel9@sha256:f1a86c96fc8e5e77d6bc1dac3e489299882f40b004eafd8b84a6988e2f6d621e"
+            "name": "registry.redhat.io/container-native-virtualization/kubevirt-console-plugin-rhel9:v4.21.0-129",
+            "image": "registry.redhat.io/container-native-virtualization/kubevirt-console-plugin-rhel9@sha256:c5a2e2ea2145587dd36953ef3f03c0db94e65ab73b2234f3bff95c2f73688841"
         },
         {
             "name": "registry.redhat.io/container-native-virtualization/kubevirt-ipam-controller-rhel9:v4.21.0-25",
@@ -19033,8 +19033,8 @@
             "image": "registry.redhat.io/container-native-virtualization/redfish-event-listener-rhel9@sha256:dea7ac4194c864ab82ad3f60d4c39ba9c98b09780f2f4a182695dd7fc3c554a2"
         },
         {
-            "name": "registry.redhat.io/container-native-virtualization/sidecar-shim-rhel9:v4.21.0-131",
-            "image": "registry.redhat.io/container-native-virtualization/sidecar-shim-rhel9@sha256:6ba51638c2b91f162aeae030772449f956e8123296f9c73bf65a7a1e64294c9f"
+            "name": "registry.redhat.io/container-native-virtualization/sidecar-shim-rhel9:v4.21.0-132",
+            "image": "registry.redhat.io/container-native-virtualization/sidecar-shim-rhel9@sha256:22c4d1a29c3ca9c109bb34927ab888f9cdd1da8a1c6783fe45979ef5943fc24c"
         },
         {
             "name": "registry.redhat.io/container-native-virtualization/virt-api-rhel9:v4.21.0-28",
