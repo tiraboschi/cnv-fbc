@@ -1,4 +1,4 @@
-channel: candidate
-hco-bundle-url: brew.registry.redhat.io/rh-osbs/container-native-virtualization-hco-bundle-registry:v4.20.5.rhel9-9
-hco-bundle-version: v4.20.5.rhel9-9
-image: registry.redhat.io/container-native-virtualization/hco-bundle-registry-rhel9@sha256:20fdd8ca688e6d42195004c3fab29743379aa7ca7d50efcd8c51f15bc06cd599
+channel: dev-preview
+hco-bundle-url: quay.io/openshift-virtualization/konflux-builds/v4-99/hco-bundle-registry-rhel9:v4.99.0.rhel9-2548
+hco-bundle-version: v4.99.0.rhel9-2548
+image: registry.redhat.io/container-native-virtualization/hco-bundle-registry-rhel9@sha256:cd532ca43b3fc93defd3263f05d47b4441d3508a40c00f8a4abb562b320ca6fb
